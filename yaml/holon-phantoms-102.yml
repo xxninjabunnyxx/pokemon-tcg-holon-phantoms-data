@@ -1,0 +1,92 @@
+---
+id: ex13-102
+name: Gyarados ★ δ
+supertype: Pokémon
+subtypes:
+- Basic
+- Star
+hp: '80'
+types:
+- Fire
+rules:
+- You can't have more than 1 Pokémon Star in your deck.
+attacks:
+- name: Spiral Growth
+  cost:
+  - Fire
+  - Colorless
+  convertedEnergyCost: 2
+  damage: '20'
+  text: Flip a coin until you get tails. For each heads, search your discard pile
+    for a basic Energy card and attach it to Gyarados Star.
+- name: All-out Blast
+  cost:
+  - Fire
+  - Fire
+  - Fire
+  - Fire
+  convertedEnergyCost: 4
+  damage: 50+
+  text: Discard cards from the top of your deck until you have 1 card left. This attack
+    does 50 damage plus 20 more damage for each Energy card you discarded in this
+    way.
+weaknesses:
+- type: Lightning
+  value: "×2"
+retreatCost:
+- Colorless
+- Colorless
+convertedRetreatCost: 2
+set:
+  id: ex13
+  name: Holon Phantoms
+  series: EX
+  printedTotal: 110
+  total: 111
+  legalities:
+    unlimited: Legal
+  ptcgoCode: HP
+  releaseDate: 2006/05/01
+  updatedAt: 2018/03/04 10:35:00
+  images:
+    symbol: https://images.pokemontcg.io/ex13/symbol.png
+    logo: https://images.pokemontcg.io/ex13/logo.png
+number: '102'
+artist: Masakazu Fukuda
+rarity: Rare Holo Star
+nationalPokedexNumbers:
+- 130
+legalities:
+  unlimited: Legal
+images:
+  small: https://images.pokemontcg.io/ex13/102.png
+  large: https://images.pokemontcg.io/ex13/102_hires.png
+tcgplayer:
+  url: https://prices.pokemontcg.io/tcgplayer/ex13-102
+  updatedAt: 2023/09/10
+  prices:
+    holofoil:
+      low: 785.0
+      mid: 799.99
+      high: 4999.99
+      market: 799.99
+      directLow: 
+cardmarket:
+  url: https://prices.pokemontcg.io/cardmarket/ex13-102
+  updatedAt: 2023/09/10
+  prices:
+    averageSellPrice: 290.0
+    lowPrice: 103.09
+    trendPrice: 334.52
+    germanProLow: 0.0
+    suggestedPrice: 0.0
+    reverseHoloSell: 0.0
+    reverseHoloLow: 0.0
+    reverseHoloTrend: 228.28
+    lowPriceExPlus: 475.0
+    avg1: 300.0
+    avg7: 304.98
+    avg30: 328.64
+    reverseHoloAvg1: 199.99
+    reverseHoloAvg7: 160.23
+    reverseHoloAvg30: 159.92
